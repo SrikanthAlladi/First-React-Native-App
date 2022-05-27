@@ -23,7 +23,9 @@ export const TextComponent = () => {
         {/* <pre>{text}</pre> */}
       </Text>
 
-      <Text style={styles.pretextcss}>{text}</Text>
+      <Text style={styles.pretextcss} testID="asdf">
+        {text}
+      </Text>
     </>
   );
 };
