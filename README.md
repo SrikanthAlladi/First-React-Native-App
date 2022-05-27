@@ -54,4 +54,10 @@
   Local host URL ( http://localhost:19002/)
   It is a javascript bundler, Every time if you run the react native project the metro bundler compiles many javascript files into a single file.
   The bundler file is located on the device itself.
+  
+ **Jest Test**
+  Install the testing tool for react native : npm install --save-dev @testing-library/react-native,
+  Install the jest testing tool for testing the component : npm install --save-dev @testing-library/jest-native,
+  Create one file for testing the component.
+
 
